@@ -1,0 +1,31 @@
+{
+  "name": "mini-waf",
+  "version": "0.4.98",
+  "description": "Create a safety NodeJS server with Minimalistic WAF library based on deflectjs hook engine.",
+  "main": "wafbase.js",
+  "scripts": {
+    "test": "node test.js && echo \"Successfully tested package Mini-WAF!\" && exit 0;"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MurylloEx/Mini-WAF"
+  },
+  "keywords": [
+    "cryptography",
+    "security",
+    "sanitize",
+    "filter",
+    "waf",
+    "web",
+    "firewall"
+  ],
+  "author": "Muryllo Pimenta de Oliveira",
+  "license": "MIT",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "crypto-js": "^4.0.0",
+    "ip": "^1.1.5",
+    "magic-pump": "0.0.3",
+    "uuid": "^7.0.3"
+  }
+}
